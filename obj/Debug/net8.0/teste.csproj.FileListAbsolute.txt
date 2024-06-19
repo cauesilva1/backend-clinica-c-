@@ -98,3 +98,4 @@ d:\teste\obj\Debug\net8.0\refint\teste.dll
 d:\teste\obj\Debug\net8.0\teste.pdb
 D:\teste\obj\Debug\net8.0\teste.genruntimeconfig.cache
 D:\teste\obj\Debug\net8.0\ref\teste.dll
+d:\teste\obj\Debug\net8.0\teste.sourcelink.json

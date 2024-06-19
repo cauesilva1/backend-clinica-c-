@@ -1,9 +1,10 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace teste.Models;
-
-public class AgendamentoModel
+namespace teste.Models
+{
+    public class AgendamentoModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,9 +21,17 @@ public class AgendamentoModel
 
         [Required]
         public DateTime horario_agendamento { get; set; }
-    public DateTime HorarioAgendado { get; internal set; }
 
-    public AgendamentoModel()
+        // Propriedades de navegação para os relacionamentos
+        [ForeignKey("cod_procedimento")]
+        public virtual ProcedimentoModel procedimento { get; set; }
+
+        [ForeignKey("id_profissional")]
+        public virtual ProfissionalModel nome_profissional { get; set; }
+
+
+        public AgendamentoModel()
         {
         }
     }
+}
