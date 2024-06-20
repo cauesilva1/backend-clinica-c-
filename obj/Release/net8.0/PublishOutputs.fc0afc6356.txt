@@ -1,0 +1,12 @@
+D:\teste\out\teste.exe
+D:\teste\out\appsettings.Development.json
+D:\teste\out\appsettings.json
+D:\teste\out\teste.dll
+D:\teste\out\teste.runtimeconfig.json
+D:\teste\out\teste.pdb
+D:\teste\out\Microsoft.EntityFrameworkCore.dll
+D:\teste\out\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\teste\out\Microsoft.EntityFrameworkCore.Relational.dll
+D:\teste\out\MySqlConnector.dll
+D:\teste\out\Pomelo.EntityFrameworkCore.MySql.dll
+D:\teste\out\teste.deps.json
